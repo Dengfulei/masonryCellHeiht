@@ -23,7 +23,7 @@ static NSString *cellID = @"cell1";
     NSMutableArray *array =[NSMutableArray new];
     for (NSInteger i = 0; i < 20; i++) {
         CellModel *model = [[CellModel alloc] init];
-//         model.title = [NSString stringWithFormat:@"%ld封装自动布局，简洁明了并具有高可读性（使用介绍1使用介绍2），iOS自适",i];
+/////////////////////
         if (i == 0) {
              model.picArray = @[@"2",@"1"];
              model.title = @"";
